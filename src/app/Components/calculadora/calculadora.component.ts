@@ -13,9 +13,7 @@ export class CalculadoraComponent implements OnInit {
   resultadoSuma:number = 0;
   resultadoPromedio:number = 0;
 
-  constructor(){
-    
-  }
+  constructor(){}
   Sumar(){
       this.resultadoSuma = this.edadUno + this.edadDos;
   }
@@ -29,6 +27,4 @@ export class CalculadoraComponent implements OnInit {
     this.resultadoSuma = 0;
   }
   ngOnInit(): void {  }
-  
-
 }
