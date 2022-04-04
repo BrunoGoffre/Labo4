@@ -10,6 +10,7 @@ import { LoginComponent } from './Components/login/login.component';
 import { ErrorComponent } from './Components/error/error.component';
 import { CalculadoraComponent } from './Components/calculadora/calculadora.component';
 import { UsuarioComponent } from './entidades/usuario/usuario.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { UsuarioComponent } from './entidades/usuario/usuario.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
