@@ -11,12 +11,4 @@ export class BienvenidoComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  hacemeClic(){
-    
-  }
-  hiceClick(){
-    console.log("redireccionando");
-  }
-
 }
