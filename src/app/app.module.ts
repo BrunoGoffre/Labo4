@@ -11,6 +11,8 @@ import { ErrorComponent } from './Components/error/error.component';
 import { CalculadoraComponent } from './Components/calculadora/calculadora.component';
 import { UsuarioComponent } from './entidades/usuario/usuario.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HomeComponent } from './Components/home/home.component';
+import { AboutMeComponent } from './Components/about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     LoginComponent,
     ErrorComponent,
     CalculadoraComponent,
-    UsuarioComponent
+    UsuarioComponent,
+    HomeComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,
